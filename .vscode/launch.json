@@ -1,0 +1,542 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Vyuka - Jmena / Prace s undefined",
+            "program": "${workspaceFolder}/src/jmena/vyuka-undefined.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+
+            "presentation": {
+                "group": "Vyuka",
+                "order": 1
+            }
+        },
+        {
+            "name": "Vyuka - Jmena / Vicenasobne prirazeni",
+            "program": "${workspaceFolder}/src/jmena/vyuka-multi-assign.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+
+            "presentation": {
+                "group": "Vyuka",
+                "order": 1
+            }
+        },
+        {
+            "name": "Vyuka - Jmena / Asociativni mapa",
+            "program": "${workspaceFolder}/src/jmena/vyuka-record.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+
+            "presentation": {
+                "group": "Vyuka",
+                "order": 1
+            }
+        },
+        {
+            "name": "Vyuka - Neporadek / Struktury",
+            "program": "${workspaceFolder}/src/neporadek/vyuka.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/neporadek/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+
+            "presentation": {
+                "group": "Vyuka",
+                "order": 1
+            }
+        },
+        {
+            "name": "Jmena 01",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+
+            "presentation": {
+                "group": "Jmena",
+                "order": 1
+            }
+        },
+        {
+            "name": "Jmena 02",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/02.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Jmena",
+                "order": 2
+            }
+        },
+        {
+            "name": "Jmena 03",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/03.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Jmena",
+                "order": 3
+            }
+        },
+        {
+            "name": "Jmena 04",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/04.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Jmena",
+                "order": 4
+            }
+        },
+        {
+            "name": "Jmena 05",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/05.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Jmena",
+                "order": 5
+            }
+        },
+        {
+            "name": "Jmena - Cetnosti 01",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Cetnosti",
+                "order": 1
+            }
+        },
+        {
+            "name": "Jmena - Cetnosti 02",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/02.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Cetnosti",
+                "order": 2
+            }
+        },
+        {
+            "name": "Jmena - Cetnosti 05",
+            "program": "${workspaceFolder}/src/jmena/jmena.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/jmena/data/05.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Cetnosti",
+                "order": 2
+            }
+        },
+        {
+            "name": "Neporadek 00",
+            "program": "${workspaceFolder}/src/neporadek/neporadek.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/neporadek/data/00.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Neporadek",
+                "order": 1
+            }
+        },
+        {
+            "name": "Neporadek 01",
+            "program": "${workspaceFolder}/src/neporadek/neporadek.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/neporadek/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Neporadek",
+                "order": 1
+            }
+        },
+        {
+            "name": "Neporadek 02",
+            "program": "${workspaceFolder}/src/neporadek/neporadek.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/neporadek/data/02.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Neporadek",
+                "order": 2
+            }
+        },
+        {
+            "name": "Neporadek 03",
+            "program": "${workspaceFolder}/src/neporadek/neporadek.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/neporadek/data/03.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Neporadek",
+                "order": 3
+            }
+        },
+        {
+            "name": "Neporadek 04",
+            "program": "${workspaceFolder}/src/neporadek/neporadek.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/neporadek/data/04.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Neporadek",
+                "order": 4
+            }
+        },
+        {
+            "name": "Neporadek 05",
+            "program": "${workspaceFolder}/src/neporadek/neporadek.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/neporadek/data/05.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+            "presentation": {
+                "group": "Neporadek",
+                "order": 5
+            }
+        },
+
+        {
+            "name": "Slepice 00",
+            "program": "${workspaceFolder}/src/slepice/slepice.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/slepice/data/00.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+        },
+        {
+            "name": "Slepice 01",
+            "program": "${workspaceFolder}/src/slepice/slepice.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/slepice/data/01.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+       },
+        {
+            "name": "Slepice 02",
+            "program": "${workspaceFolder}/src/slepice/slepice.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/slepice/data/02.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+       },
+        {
+            "name": "Slepice 03",
+            "program": "${workspaceFolder}/src/slepice/slepice.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/slepice/data/03.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+       },
+        {
+            "name": "Slepice 04",
+            "program": "${workspaceFolder}/src/slepice/slepice.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/slepice/data/04.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+       },
+        {
+            "name": "Slepice 05",
+            "program": "${workspaceFolder}/src/slepice/slepice.ts",   // change to your outDir + entry
+            "args": [ "${workspaceFolder}/src/slepice/data/05.in" ],
+            
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "tsx",            
+            
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+            "sourceMaps": true,
+            "showAsyncStacks": true,
+         }
+    ]
+}
