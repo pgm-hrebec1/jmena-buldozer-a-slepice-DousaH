@@ -17,15 +17,50 @@ let lines : string[] = obsah.split('\n');
 let vstupBuldozeru : string = lines[0];
 let vstupKrabice : string = lines[1];
 
+
+
 let poziceBuldozeru = null; // Nahradit skutecnou inicializaci pozice
 let poziceKrabice = null;   // Nahradit skutecnou inicializaci pozice
-
+let prikazy : string = lines[2]
+let yB : number 
+let xB : number
+let yK : number 
+let xK : number
 
 // -----------------------------------
 // NAPISTE VLASTNI PROGRAM SEM
 // -----------------------------------
+for (let i = 0; i < prikazy.length; i++) {
+    let prikaz = prikazy[i];
 
+    if(prikaz === "N"){
+        yB++
+    }
+    if(prikaz === "D"){
+        yB+--
+    }
+    if(prikaz === "L"){
+        xB++
+    }
+    if(prikaz === "P"){
+        xB--
+    }
 
+if(yB === yK && xB === xK){
+    if(prikaz === "N"){
+        yK++
+    }
+    if(prikaz === "D"){
+        yK+--
+    }
+    if(prikaz === "L"){
+        xK++
+    }
+    if(prikaz === "P"){
+        xK--
+    }
+}
+}
 
 // Zapiseme jeste do vystupniho souboru
 // UKOL: proc je tu pouzito path.dirname(), co to znamena ? Vysvetleni zapiste do komentare:
