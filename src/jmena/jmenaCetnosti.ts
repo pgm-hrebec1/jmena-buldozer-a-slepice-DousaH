@@ -27,6 +27,28 @@ let pocet : number = Number(lines.shift());
 // NAPISTE VLASTNI PROGRAM SEM
 // -----------------------------------
 
+
+
+for (let i = 0; i < pocet; i++) {
+    
+    let jmeno = lines[i];
+    
+    if (poctyJmen[jmeno] === undefined) {
+        poctyJmen[jmeno] = 1;
+    } else {
+        poctyJmen[jmeno]++;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 fs.mkdirSync(path.dirname(outname), { recursive : true});
 fs.writeFileSync(outname, '');
 
